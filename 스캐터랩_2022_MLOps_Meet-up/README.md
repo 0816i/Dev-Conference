@@ -1,8 +1,5 @@
 # 스캐터랩 2022 MLOps Meet-up
 
-Property: 개인 과업
-Status: 완료
-
 # 밋업
 
 - 전제조건
@@ -149,6 +146,8 @@ Status: 완료
       - Optimization이 용이하고 유지보수가 쉬움
 - Do It Yourself
   > 단어별 개수를 세서 BigQuery에 저장하세요.
+  >
+
   1. ReadFromText
      - 텍스트파일을 줄별로 읽어옴
   2. Flatten
@@ -166,7 +165,9 @@ Status: 완료
 ## Beam 파이프라인의 배포
 
 - CI/CD for Data Pipelines
+
   - Unit Test → Inte Test → Build → Deploy → Valid
+
   1. DirectRunner로 개발
      - 로컬 python으로 파이프라인 로직 테스트
   2. 유닛테스트
